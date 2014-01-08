@@ -16,6 +16,7 @@ WELCOMEUSER;
   // var_dump($user);
   echo $welcomeUser;
   include 'searchEventForm.php';
+  include 'searchResults.php';
 }
 else
 {
