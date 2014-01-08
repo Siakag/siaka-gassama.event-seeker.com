@@ -1,19 +1,14 @@
 $(function()
 {
-  $('#loginUser').click(function(event)
+  $(document).on('click', '#loginUser, #logoutUser', function(event)
   {
     event.preventDefault();
     var sendForm = prepareForm.call(this, '#content');
     sendForm();
   })
 
-  $('#logoutUser').click(function(event)
-  {
-    event.preventDefault();
-    var sendForm = prepareForm.call(this, '#content');
-    sendForm();
-  })
 
+  // handle form submissions
   function prepareForm(section)
   {
     var formElement = $(this).parent();

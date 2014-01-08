@@ -26,10 +26,6 @@ if( isset( $_POST['username']) && isset( $_POST['purpose']) && $_POST['purpose']
       {
         $_SESSION['username'] = $user->getUserName();
       }
-      if( ! isset( $_SESSION['userLocation']) && $userLocation)
-      {
-        $_SESSION['userLocation'] = $userLocation;
-      }
       include '../public/includes/loggedIn.php';
     }
   }
