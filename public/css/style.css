@@ -1,0 +1,30 @@
+/********************* general *********************/
+html, body {
+  /*height: 100%;*/
+  margin: 0;
+  padding: 2% 5%;
+}
+
+/********************* logout form *********************/
+#logoutForm {
+  position: absolute;
+  right: 5%;
+  width: 10%;
+}
+
+#logoutUser {
+  border: medium none;
+  display: block;
+  height: 35px;
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase;
+  width: 100%;
+}
+
+
+/********************* content *********************/
+#username {
+  font-weight: bold;
+  text-transform: capitalize;
+}
