@@ -1,0 +1,1 @@
+Event Seeker (currently v 0.3) is an application that will utilize an event aggregating API to help users locate events based on keyword and location based searches. It uses ajax calls to dynamically load search results into the page, allowing for a better user experience, rather than recurring page loads.
