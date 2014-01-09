@@ -1,0 +1,11 @@
+{
+  "plays" : [
+    { "name" : "fiddler on the roof" },
+    { "name" : "phantom of the opera" }
+  ],
+  "museums" : [
+    { "name" : "art museum" },
+    { "name" : "history museum" },
+    { "name" : "museum of science" }
+  ]
+}
